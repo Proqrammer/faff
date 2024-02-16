@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    margin: 25vh auto;
+    border: 1px solid black;
+    background: #fff;
+    width: 360px;
+    border-radius: 10px;
+}
+
+.card:hover button{
+    display: block;
+}
+
+.imtahan {
+    background-color: rgb(59, 59, 59);
+    padding: 10px;
+    width: 332px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.card div {
+    width: 200px;
+}
+
+.card .bir {
+    background: #adacac;
+    border: 1px solid #adacac;
+    border-radius: 18px;
+    padding: 10px;
+    margin: 15px;
+    width: 325px;
+}
+
+.card .iki {
+    background: #04df04;
+    border-radius: 18px;
+    padding: 10px;
+    text-decoration: line-through;
+    margin: 15px;
+    width: 325px;
+}
+
+.fa-trash {
+    color: red;
+}
+
+h1 {
+    background: #fff;
+}
+
+button h1 {
+    background-color: #04df04;
+    height: 50px;
+    padding: 10px;
+}
+
+button {
+    margin: 15px;
+    width: 325px;
+    border-radius: 6px;
+    display: none;
+}
+
+.fa-solid {
+    float: right;
+    background: none;
+    padding: 3px;
+}
+
+.fa-trash:hover {
+    color: black;
+    transform: rotate(30deg);
+
+}
